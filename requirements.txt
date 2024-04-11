@@ -8,3 +8,4 @@ phe
 pycrypto
 numpy
 pycryptodome
+pefile
