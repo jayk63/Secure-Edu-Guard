@@ -1,1 +1,3 @@
-sudo apt-get install pkg-config
+build-essential
+pkg-config
+default-libmysqlclient-dev
