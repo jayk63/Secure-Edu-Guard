@@ -7,6 +7,7 @@ scikit-learn
 phe
 pycrypto
 numpy
+mysqlclient
 pycryptodome
 pefile
 sqlalchemy
