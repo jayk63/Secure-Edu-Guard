@@ -1,0 +1,9 @@
+mysql-connector-python
+pandas
+streamlit
+streamlit_option_menu
+streamlit-extras
+scikit-learn
+phe
+pycrypto
+numpy
