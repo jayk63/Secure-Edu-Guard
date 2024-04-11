@@ -219,7 +219,7 @@ def malware():
             new_title = '<p style="font-family:sans-serif;font-size: 30px;">{}</p>'.format(t)
             st.markdown(new_title, unsafe_allow_html=True)
 
-conn = st.connection('mysql', type='sql')
+db = st.connection('mysql', type='sql')
 '''
 db = mysql.connector.connect(
     host="localhost", user="root", password="Planet@123"
