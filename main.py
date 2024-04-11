@@ -218,15 +218,18 @@ def malware():
             t='The file %s is %s' % (os.path.basename(uploaded_file.name),['legitimate','malicious'][res])
             new_title = '<p style="font-family:sans-serif;font-size: 30px;">{}</p>'.format(t)
             st.markdown(new_title, unsafe_allow_html=True)
-            
+
+conn = st.connection('mysql', type='sql')
+'''
 db = mysql.connector.connect(
     host="localhost", user="root", password="Planet@123"
 )
+'''
 # Create a new database if it doesn't exist
 cursor = db.cursor()
 cursor.execute("CREATE DATABASE IF NOT EXISTS mydatabase")
 print("Database created successfully")
-
+'''
 # Connect to the new database
 db = mysql.connector.connect(
     host="localhost",
@@ -234,7 +237,7 @@ db = mysql.connector.connect(
     password= "Planet@123",
     database="mydatabase",
 )
-
+'''
 cursor = db.cursor()
 print("Database Connected")
 
