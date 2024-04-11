@@ -9,3 +9,4 @@ pycrypto
 numpy
 pycryptodome
 pefile
+sqlalchemy
